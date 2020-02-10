@@ -43,26 +43,6 @@ footer {
 	font-size: 12px;
 }
 
-.card-image {
-	filter: brightness(-65%);
-	-webkit-transition: all .50s ease;
-	   -moz-transition: all .50s ease;
-		 -o-transition: all .50s ease;
-		-ms-transition: all .50s ease;
-			transition: all .50s ease;
-}
-
-.card a:hover {
-	text-decoration: none;
-}
-
-.card-image:hover {
-	text-decoration: none;
-	opacity: .8;
-	filter: brightness(40%);
-}
-
-
 
 .headerp {
 	padding: 15px 0;
@@ -97,29 +77,6 @@ a.contact:hover {
 	text-decoration: none;
 }
 
-
-a.resume {
-	text-decoration: none;
-	color: white;
-	background-color: rgb(65, 65, 65);
-	padding: 6px 12px;
-	border-radius: 5px;
-	filter: brightness(-65%);
-	-webkit-transition: all .50s ease;
-	   -moz-transition: all .50s ease;
-		 -o-transition: all .50s ease;
-		-ms-transition: all .50s ease;
-			transition: all .50s ease;
-}
-
-
-a.resume:hover {
-	color: rgb(255, 255, 255);
-	background-color: rgb(83, 83, 83);
-	text-decoration: none;
-	opacity: .8;
-	filter: brightness(50%);
-}
 
 /* Smaller Phone CSS Adjustment */
 @media only screen 
@@ -194,6 +151,48 @@ a.resume:hover {
 
 	footer {
 		width: 100%;
+	}
+
+	.card-image {
+		filter: brightness(-65%);
+		-webkit-transition: all .50s ease;
+		   -moz-transition: all .50s ease;
+			 -o-transition: all .50s ease;
+			-ms-transition: all .50s ease;
+				transition: all .50s ease;
+	}
+	
+	.card a:hover {
+		text-decoration: none;
+	}
+	
+	.card-image:hover {
+		text-decoration: none;
+		opacity: .8;
+		filter: brightness(40%);
+	}
+
+	a.resume {
+		text-decoration: none;
+		color: white;
+		background-color: rgb(65, 65, 65);
+		padding: 6px 12px;
+		border-radius: 5px;
+		filter: brightness(-65%);
+		-webkit-transition: all .50s ease;
+		   -moz-transition: all .50s ease;
+			 -o-transition: all .50s ease;
+			-ms-transition: all .50s ease;
+				transition: all .50s ease;
+	}
+	
+	
+	a.resume:hover {
+		color: rgb(255, 255, 255);
+		background-color: rgb(83, 83, 83);
+		text-decoration: none;
+		opacity: .8;
+		filter: brightness(50%);
 	}
 
 }
