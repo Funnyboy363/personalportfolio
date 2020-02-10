@@ -1,0 +1,175 @@
+header {
+	background-image: url("/images/web-design-wallpaper.jpg");
+	background-position: bottom bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+header h1 {
+	padding-top: 50px;
+	color: white;
+}
+
+header h2 {
+	color: darkgray !important;
+	padding-bottom: 50px;
+}
+
+html {
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+footer {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.card-image {
+	border-radius: 4px;
+}
+
+
+.first-content h3 {
+	color: white;
+	font-size: 22px;
+	
+}
+
+.first-content p {
+	font-size: 12px;
+}
+
+.card-image {
+	-webkit-filter: brightness(-65%);
+	-webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+		 -o-transition: all .50s ease;
+		-ms-transition: all .50s ease;
+			transition: all .50s ease;
+}
+
+.card a:hover {
+	text-decoration: none;
+}
+
+.card-image:hover {
+	text-decoration: none;
+	opacity: .8;
+	-webkit-filter: brightness(40%);
+}
+
+
+
+.headerp {
+	padding: 15px 0;
+}
+ 
+
+.nav.nav-pills {
+	background-color: rgb(92, 92, 92);
+	padding: 20px 10px;
+	display: flex;
+		justify-content: center;
+}
+
+.nav-pills .nav-link {
+	color: black;
+}
+
+.nav-pills .nav-link.active {
+	background-color: rgb(59, 59, 59) !important;
+}
+
+
+
+a.contact {
+	text-decoration: none;
+	color: black;
+}
+
+
+a.contact:hover {
+	color: rgb(105, 105, 105);
+	text-decoration: none;
+}
+
+/* Smaller Phone CSS Adjustment */
+@media only screen 
+  and (max-width: 320px) {
+
+	  body h1 {
+		  color: white;
+	  }
+
+	  body h2 {
+		font-size: 15px;
+		color: black;
+	}
+
+	.social {
+		color: darkgray;
+	}
+
+	.social:hover {
+		color: lightblue;
+	}
+
+
+	.nav.nav-pills  {
+		padding-left: 45px;
+		font-size: 18px;
+	}
+	  
+}
+
+
+/* Phone CSS Adjustment */
+/* @media only screen 
+  and (min-width: 320px) {
+	  
+
+} */
+
+
+/* Tablet CSS Adjustment */
+@media only screen 
+  and (min-width: 768px) {
+	
+
+	body h1 {
+		font-size: 40px;
+		color: white;
+	}
+
+	.nav.nav-pills  {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		padding: 20px 10px;
+	}
+
+}
+
+
+
+
+/* Laptop and bigger Adjustment */
+
+@media screen 
+  and (min-width: 1200px) { 
+	
+
+	body h1 {
+		font-size: 60px;
+		color: white;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+}
