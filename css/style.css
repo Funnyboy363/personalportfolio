@@ -44,7 +44,7 @@ footer {
 }
 
 .card-image {
-	-webkit-filter: brightness(-65%);
+	filter: brightness(-65%);
 	-webkit-transition: all .50s ease;
 	   -moz-transition: all .50s ease;
 		 -o-transition: all .50s ease;
@@ -59,7 +59,7 @@ footer {
 .card-image:hover {
 	text-decoration: none;
 	opacity: .8;
-	-webkit-filter: brightness(40%);
+	filter: brightness(40%);
 }
 
 
@@ -104,7 +104,7 @@ a.resume {
 	background-color: rgb(65, 65, 65);
 	padding: 6px 12px;
 	border-radius: 5px;
-	-webkit-filter: brightness(-65%);
+	filter: brightness(-65%);
 	-webkit-transition: all .50s ease;
 	   -moz-transition: all .50s ease;
 		 -o-transition: all .50s ease;
@@ -118,7 +118,7 @@ a.resume:hover {
 	background-color: rgb(83, 83, 83);
 	text-decoration: none;
 	opacity: .8;
-	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
 }
 
 /* Smaller Phone CSS Adjustment */
