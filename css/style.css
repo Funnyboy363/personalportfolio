@@ -154,7 +154,7 @@ a.contact:hover {
 	}
 
 	.card-image {
-		filter: brightness(-65%);
+		/* filter: brightness(-65%); */
 		-webkit-transition: all .50s ease;
 		   -moz-transition: all .50s ease;
 			 -o-transition: all .50s ease;
@@ -169,7 +169,7 @@ a.contact:hover {
 	.card-image:hover {
 		text-decoration: none;
 		opacity: .8;
-		filter: brightness(40%);
+		/* filter: brightness(40%); */
 	}
 
 	a.resume {
@@ -178,7 +178,7 @@ a.contact:hover {
 		background-color: rgb(65, 65, 65);
 		padding: 6px 12px;
 		border-radius: 5px;
-		filter: brightness(-65%);
+		/* filter: brightness(-65%); */
 		-webkit-transition: all .50s ease;
 		   -moz-transition: all .50s ease;
 			 -o-transition: all .50s ease;
@@ -192,7 +192,7 @@ a.contact:hover {
 		background-color: rgb(83, 83, 83);
 		text-decoration: none;
 		opacity: .8;
-		filter: brightness(50%);
+		/* filter: brightness(50%); */
 	}
 
 }
