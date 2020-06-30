@@ -14,8 +14,15 @@ header h1 {
 
 header h2 {
 	color: darkgray !important;
-	padding-bottom: 50px;
 }
+
+
+header p {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
 
 html {
 	width: 100%;
